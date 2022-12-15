@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 128px;
+}
+
+.imagecontainer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagegrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagebox {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageframe {
+  display: inline-block;
+  height: fit-content !important;
+}
+
+.image {
+  padding: 0px;
+  width: 100%;
+}
+
+.imageIcon {
+  width: 300px;
+}
+
+.title {
+  color: #1976d2;
+  text-align: center;
+  font-size: 4rem !important;
+  font-family: "Courier-Bold";
+}
+
+.titlecontainer {
+  margin: 6% 0px 3rem 0px;
+  font-weight: 700 !important;
+}
+
+.loginBox {
+  background: #f46b45;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 10 10 10 10;
+  width: 40%;
+  position: absolute;
+  top: 70%;
+  transform: translate(10%, -50%);
+  padding: 2.25rem;
+  border-radius: 10px;
+}
+
+.buttonGradient{
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #654ea3, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #654ea3, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.backgroundRight{
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
